@@ -18,41 +18,41 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/bin/conn_init:system/bin/conn_init \
     vendor/xiaomi/mocha/proprietary/etc/bluetooth/bdaddr:system/etc/bluetooth/bdaddr \
     vendor/xiaomi/mocha/proprietary/etc/enctune.conf:system/etc/enctune.conf \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/BCM4350C0.hcd:system/etc/firmware/BCM4350C0.hcd \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/bq27520_atl.bqfs:system/etc/firmware/bq27520_atl.bqfs \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/bq27520_lgc.bqfs:system/etc/firmware/bq27520_lgc.bqfs \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/lp5521:system/etc/firmware/lp5521 \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/marvel_p2p.conf:system/etc/firmware/marvel_p2p.conf \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/marvel_wpa.conf:system/etc/firmware/marvel_wpa.conf \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/nvavp_os_8ff00000.bin:system/etc/firmware/nvavp_os_8ff00000.bin \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/nvavp_os_f7e00000.bin:system/etc/firmware/nvavp_os_f7e00000.bin \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/nvram.txt:system/etc/firmware/nvram.txt \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/sd8797_uapsta.bin:system/etc/firmware/sd8797_uapsta.bin \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/sd8897_uapsta.bin:system/etc/firmware/sd8897_uapsta.bin \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tegra12x/NETB_img.bin:system/etc/firmware/tegra12x/NETB_img.bin \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tegra12x/fecs.bin:system/etc/firmware/tegra12x/fecs.bin \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tegra12x/gpccs.bin:system/etc/firmware/tegra12x/gpccs.bin \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tegra12x/gpmu_ucode.bin:system/etc/firmware/tegra12x/gpmu_ucode.bin \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tegra12x/nvhost_msenc031.fw:system/etc/firmware/tegra12x/nvhost_msenc031.fw \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tegra12x/nvhost_tsec.fw:system/etc/firmware/tegra12x/nvhost_tsec.fw \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tegra12x/vic03_ucode.bin:system/etc/firmware/tegra12x/vic03_ucode.bin \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890.config:system/etc/firmware/tfa9890.config \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_boot.patch:system/etc/firmware/tfa9890_boot.patch \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_left.speaker:system/etc/firmware/tfa9890_left.speaker \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_left_music.eq:system/etc/firmware/tfa9890_left_music.eq \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_left_music.preset:system/etc/firmware/tfa9890_left_music.preset \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_left_voice.eq:system/etc/firmware/tfa9890_left_voice.eq \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_left_voice.preset:system/etc/firmware/tfa9890_left_voice.preset \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_right.speaker:system/etc/firmware/tfa9890_right.speaker \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_right_music.eq:system/etc/firmware/tfa9890_right_music.eq \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_right_music.preset:system/etc/firmware/tfa9890_right_music.preset \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_right_voice.eq:system/etc/firmware/tfa9890_right_voice.eq \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_right_voice.preset:system/etc/firmware/tfa9890_right_voice.preset \
-    vendor/xiaomi/mocha/proprietary/etc/firmware/tfa9890_rom.patch:system/etc/firmware/tfa9890_rom.patch \
+    vendor/xiaomi/mocha/proprietary/firmware/BCM4350C0.hcd:system/etc/firmware/BCM4350C0.hcd \
+    vendor/xiaomi/mocha/proprietary/firmware/bq27520_atl.bqfs:system/etc/firmware/bq27520_atl.bqfs \
+    vendor/xiaomi/mocha/proprietary/firmware/bq27520_lgc.bqfs:system/etc/firmware/bq27520_lgc.bqfs \
+    vendor/xiaomi/mocha/proprietary/firmware/lp5521:system/etc/firmware/lp5521 \
+    vendor/xiaomi/mocha/proprietary/firmware/marvel_p2p.conf:system/etc/firmware/marvel_p2p.conf \
+    vendor/xiaomi/mocha/proprietary/firmware/marvel_wpa.conf:system/etc/firmware/marvel_wpa.conf \
+    vendor/xiaomi/mocha/proprietary/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
+    vendor/xiaomi/mocha/proprietary/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
+    vendor/xiaomi/mocha/proprietary/firmware/nvavp_os_8ff00000.bin:system/etc/firmware/nvavp_os_8ff00000.bin \
+    vendor/xiaomi/mocha/proprietary/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
+    vendor/xiaomi/mocha/proprietary/firmware/nvavp_os_f7e00000.bin:system/etc/firmware/nvavp_os_f7e00000.bin \
+    vendor/xiaomi/mocha/proprietary/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
+    vendor/xiaomi/mocha/proprietary/firmware/nvram.txt:system/etc/firmware/nvram.txt \
+    vendor/xiaomi/mocha/proprietary/firmware/sd8797_uapsta.bin:system/etc/firmware/sd8797_uapsta.bin \
+    vendor/xiaomi/mocha/proprietary/firmware/sd8897_uapsta.bin:system/etc/firmware/sd8897_uapsta.bin \
+    vendor/xiaomi/mocha/proprietary/firmware/gk20a/NETB_img.bin:system/etc/firmware/tegra12x/NETB_img.bin \
+    vendor/xiaomi/mocha/proprietary/firmware/gk20a/fecs.bin:system/etc/firmware/tegra12x/fecs.bin \
+    vendor/xiaomi/mocha/proprietary/firmware/gk20a/gpccs.bin:system/etc/firmware/tegra12x/gpccs.bin \
+    vendor/xiaomi/mocha/proprietary/firmware/gk20a/gpmu_ucode.bin:system/etc/firmware/tegra12x/gpmu_ucode.bin \
+    vendor/xiaomi/mocha/proprietary/firmware/tegra12x/nvhost_msenc031.fw:system/etc/firmware/tegra12x/nvhost_msenc031.fw \
+    vendor/xiaomi/mocha/proprietary/firmware/tegra12x/nvhost_tsec.fw:system/etc/firmware/tegra12x/nvhost_tsec.fw \
+    vendor/xiaomi/mocha/proprietary/firmware/tegra12x/vic03_ucode.bin:system/etc/firmware/tegra12x/vic03_ucode.bin \
+    vendor/xiaomi/mocha/proprietary/firmware/tfa9890.config:system/etc/firmware/tfa9890.config \
+    vendor/xiaomi/mocha/proprietary/firmware/tfa9890_boot.patch:system/etc/firmware/tfa9890_boot.patch \
+    vendor/xiaomi/mocha/proprietary/firmware/tfa9890_left.speaker:system/etc/firmware/tfa9890_left.speaker \
+    vendor/xiaomi/mocha/proprietary/firmware/tfa9890_left_music.eq:system/etc/firmware/tfa9890_left_music.eq \
+    vendor/xiaomi/mocha/proprietary/firmware/tfa9890_left_music.preset:system/etc/firmware/tfa9890_left_music.preset \
+    vendor/xiaomi/mocha/proprietary/firmware/tfa9890_left_voice.eq:system/etc/firmware/tfa9890_left_voice.eq \
+    vendor/xiaomi/mocha/proprietary/firmware/tfa9890_left_voice.preset:system/etc/firmware/tfa9890_left_voice.preset \
+    vendor/xiaomi/mocha/proprietary/firmware/tfa9890_right.speaker:system/etc/firmware/tfa9890_right.speaker \
+    vendor/xiaomi/mocha/proprietary/firmware/tfa9890_right_music.eq:system/etc/firmware/tfa9890_right_music.eq \
+    vendor/xiaomi/mocha/proprietary/firmware/tfa9890_right_music.preset:system/etc/firmware/tfa9890_right_music.preset \
+    vendor/xiaomi/mocha/proprietary/firmware/tfa9890_right_voice.eq:system/etc/firmware/tfa9890_right_voice.eq \
+    vendor/xiaomi/mocha/proprietary/firmware/tfa9890_right_voice.preset:system/etc/firmware/tfa9890_right_voice.preset \
+    vendor/xiaomi/mocha/proprietary/firmware/tfa9890_rom.patch:system/etc/firmware/tfa9890_rom.patch \
     vendor/xiaomi/mocha/proprietary/etc/hdcpsrm/hdcp1x.srm:system/etc/hdcpsrm/hdcp1x.srm \
     vendor/xiaomi/mocha/proprietary/etc/hdcpsrm/hdcp2x.srm:system/etc/hdcpsrm/hdcp2x.srm \
     vendor/xiaomi/mocha/proprietary/etc/hdcpsrm/hdcp2xtest.srm:system/etc/hdcpsrm/hdcp2xtest.srm \
@@ -105,10 +105,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libardrv_dynamic.so:system/vendor/lib/libardrv_dynamic.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libaudioavp.so:system/vendor/lib/libaudioavp.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libcgdrv.so:system/vendor/lib/libcgdrv.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libcuda.so:system/vendor/lib/libcuda.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libcuda.so:system/vendor/lib/libcuda.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libfcamdng.so:system/vendor/lib/libfcamdng.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libcuda.so:system/vendor/lib/libcuda.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libglcore.so:system/vendor/lib/libglcore.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_boot.so:system/vendor/lib/libgov_boot.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_camera.so:system/vendor/lib/libgov_camera.so \
@@ -123,11 +122,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libjni-nvwfd-sink.so:system/vendor/lib/libjni-nvwfd-sink.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libjni_nvremote.so:system/vendor/lib/libjni_nvremote.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libjni_nvremoteprotopkg.so:system/vendor/lib/libjni_nvremoteprotopkg.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvapputil.so:system/vendor/lib/libnvapputil.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libnvapputil.so:system/vendor/lib/libnvapputil.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvasfparserhal.so:system/vendor/lib/libnvasfparserhal.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvaudioservice.so:system/vendor/lib/libnvaudioservice.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvaviparserhal.so:system/vendor/lib/libnvaviparserhal.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvavp.so:system/vendor/lib/libnvavp.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libnvavp.so:system/vendor/lib/libnvavp.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvblit.so:system/vendor/lib/libnvblit.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcam_imageencoder.so:system/vendor/lib/libnvcam_imageencoder.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcamerahdr.so:system/vendor/lib/libnvcamerahdr.so \
@@ -137,13 +136,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcap_video.so:system/vendor/lib/libnvcap_video.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcapaudioservice.so:system/vendor/lib/libnvcapaudioservice.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcapclk.so:system/vendor/lib/libnvcapclk.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcms.so:system/vendor/lib/libnvcms.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libnvcms.so:system/vendor/lib/libnvcms.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcontrol_jni.so:system/vendor/lib/libnvcontrol_jni.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcpl.so:system/vendor/lib/libnvcpl.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvddk_2d.so:system/vendor/lib/libnvddk_2d.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvddk_2d_v2.so:system/vendor/lib/libnvddk_2d_v2.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvddk_vic.so:system/vendor/lib/libnvddk_vic.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvfusebypass.so:system/vendor/lib/libnvfusebypass.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libnvfusebypass.so:system/vendor/lib/libnvfusebypass.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvglsi.so:system/vendor/lib/libnvglsi.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvgr.so:system/vendor/lib/libnvgr.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvhrcv.so:system/vendor/lib/libnvhrcv.so \
@@ -173,8 +172,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvomxadaptor.so:system/vendor/lib/libnvomxadaptor.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvomxilclient.so:system/vendor/lib/libnvomxilclient.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvopt_dvm.so:system/vendor/lib/libnvopt_dvm.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvos.so:system/vendor/lib/libnvos.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvparser.so:system/vendor/lib/libnvparser.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libnvos.so:system/vendor/lib/libnvos.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libnvparser.so:system/vendor/lib/libnvparser.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvremoteevtmgr.so:system/vendor/lib/libnvremoteevtmgr.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvremotell.so:system/vendor/lib/libnvremotell.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvremoteprotocol.so:system/vendor/lib/libnvremoteprotocol.so \
@@ -183,16 +182,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvrmapi_tegra.so:system/vendor/lib/libnvrmapi_tegra.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvsm.so:system/vendor/lib/libnvsm.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvstitching.so:system/vendor/lib/libnvstitching.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvtestio.so:system/vendor/lib/libnvtestio.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvtestresults.so:system/vendor/lib/libnvtestresults.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvtnr.so:system/vendor/lib/libnvtnr.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvtvmr.so:system/vendor/lib/libnvtvmr.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libnvtestio.so:system/vendor/lib/libnvtestio.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libnvtestresults.so:system/vendor/lib/libnvtestresults.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libnvtnr.so:system/vendor/lib/libnvtnr.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libnvtvmr.so:system/vendor/lib/libnvtvmr.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libcplconnectclient.so:system/vendor/lib/libcplconnectclient.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libnvhwc_service.so:system/vendor/lib/libnvhwc_service.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvvicsi.so:system/vendor/lib/libnvvicsi.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvvicsi_v3.so:system/vendor/lib/libnvvicsi_v3.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvvpp.so:system/vendor/lib/libnvvpp.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvwinsys.so:system/vendor/lib/libnvwinsys.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvwsi.so:system/vendor/lib/libnvwsi.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libphs.so:system/vendor/lib/libphs.so \
+    vendor/xiaomi/mocha/proprietary/common/lib/libphs.so:system/vendor/lib/libphs.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libtlk_secure_hdcp_up.so:system/vendor/lib/libtlk_secure_hdcp_up.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libtsec_wrapper.so:system/vendor/lib/libtsec_wrapper.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libtsechdcp.so:system/vendor/lib/libtsechdcp.so \
