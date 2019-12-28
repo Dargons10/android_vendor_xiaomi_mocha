@@ -53,6 +53,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/firmware/tfa9890_right_voice.eq:system/etc/firmware/tfa9890_right_voice.eq \
     vendor/xiaomi/mocha/proprietary/firmware/tfa9890_right_voice.preset:system/etc/firmware/tfa9890_right_voice.preset \
     vendor/xiaomi/mocha/proprietary/firmware/tfa9890_rom.patch:system/etc/firmware/tfa9890_rom.patch \
+    vendor/xiaomi/mocha/proprietary/firmware/tegra12x_xusb_firmware:system/etc/firmware/tegra12x_xusb_firmware \
+    vendor/xiaomi/mocha/proprietary/firmware/tegra_xusb_firmware:system/etc/firmware/tegra_xusb_firmware \
     vendor/xiaomi/mocha/proprietary/etc/hdcpsrm/hdcp1x.srm:system/etc/hdcpsrm/hdcp1x.srm \
     vendor/xiaomi/mocha/proprietary/etc/hdcpsrm/hdcp2x.srm:system/etc/hdcpsrm/hdcp2x.srm \
     vendor/xiaomi/mocha/proprietary/etc/hdcpsrm/hdcp2xtest.srm:system/etc/hdcpsrm/hdcp2xtest.srm \
@@ -93,9 +95,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/bin/touch_fusion_rd:system/vendor/bin/touch_fusion_rd \
     vendor/xiaomi/mocha/proprietary/vendor/bin/ussrd:system/vendor/bin/ussrd \
     vendor/xiaomi/mocha/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/hw/gralloc.tegra.so:system/vendor/lib/hw/gralloc.tegra.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/hw/hwcomposer.tegra.so:system/vendor/lib/hw/hwcomposer.tegra.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/hw/vulkan.tegra.so:system/vendor/lib/hw/vulkan.tegra.so \
+    vendor/xiaomi/mocha/proprietary/hal/lib/hw/gralloc.tegra.so:system/vendor/lib/hw/gralloc.tegra.so \
+    vendor/xiaomi/mocha/proprietary/hal/lib/hw/hwcomposer.tegra.so:system/vendor/lib/hw/hwcomposer.tegra.so \
+    vendor/xiaomi/mocha/proprietary/hal/lib/hw/hdmi_cec.tegra.so:system/vendor/lib/hw/hdmi_cec.tegra.so \
+    vendor/xiaomi/mocha/proprietary/hal/lib/hw/keystore.tegra.so:system/vendor/lib/hw/keystore.tegra.so \
+    vendor/xiaomi/mocha/proprietary/hal/lib/hw/memtrack.tegra.so:system/vendor/lib/hw/memtrack.tegra.so \
+    vendor/xiaomi/mocha/proprietary/hal/lib/hw/pbc.tegra.so:system/vendor/lib/hw/pbc.tegra.so \
+    vendor/xiaomi/mocha/proprietary/hal/lib/hw/vulkan.tegra.so:system/vendor/lib/hw/vulkan.tegra.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libEGL_perfhud.so:system/vendor/lib/libEGL_perfhud.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libEGL_tegra_impl.so:system/vendor/lib/libEGL_tegra_impl.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libGLESv1_CM_tegra_impl.so:system/vendor/lib/libGLESv1_CM_tegra_impl.so \
