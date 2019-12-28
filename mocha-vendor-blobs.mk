@@ -174,9 +174,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvodm_imager.so:system/vendor/lib/libnvodm_imager.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvodm_misc.so:system/vendor/lib/libnvodm_misc.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvodm_query.so:system/vendor/lib/libnvodm_query.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvomx.so:system/vendor/lib/libnvomx.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvomxadaptor.so:system/vendor/lib/libnvomxadaptor.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvomxilclient.so:system/vendor/lib/libnvomxilclient.so \
+    vendor/xiaomi/mocha/proprietary/media/lib/libnvomx.so:system/vendor/lib/libnvomx.so \
+    vendor/xiaomi/mocha/proprietary/media/lib/libnvomxadaptor.so:system/vendor/lib/libnvomxadaptor.so \
+    vendor/xiaomi/mocha/proprietary/media/lib/libnvomxilclient.so:system/vendor/lib/libnvomxilclient.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvopt_dvm.so:system/vendor/lib/libnvopt_dvm.so \
     vendor/xiaomi/mocha/proprietary/common/lib/libnvos.so:system/vendor/lib/libnvos.so \
     vendor/xiaomi/mocha/proprietary/common/lib/libnvparser.so:system/vendor/lib/libnvparser.so \
