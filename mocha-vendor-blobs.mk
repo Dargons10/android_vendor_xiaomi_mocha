@@ -212,7 +212,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libtlk_secure_hdcp_up.so:system/vendor/lib/libtlk_secure_hdcp_up.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libtsec_wrapper.so:system/vendor/lib/libtsec_wrapper.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libtsechdcp.so:system/vendor/lib/libtsechdcp.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libussrd.so:system/vendor/lib/libussrd.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libwfd_common.so:system/vendor/lib/libwfd_common.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libwfd_sink.so:system/vendor/lib/libwfd_sink.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libwfd_source.so:system/vendor/lib/libwfd_source.so \
