@@ -219,4 +219,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvRSCompiler.so:system/vendor/lib/libnvRSCompiler.so \
 vendor/xiaomi/mocha/proprietary/vendor/lib/libnvRSDriver.so:system/vendor/lib/libnvRSDriver.so \
+vendor/xiaomi/mocha/proprietary/vendor/lib/libaffinitydaemon.so:system/vendor/lib/libaffinitydaemon.so \
+vendor/xiaomi/mocha/proprietary/vendor/lib/libussrd.so:system/vendor/lib/libussrd.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
