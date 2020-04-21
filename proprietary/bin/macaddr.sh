@@ -40,6 +40,10 @@ generateWifiMac() {
 main() {
 	if [ -f ${BT_FILE} ] && [ -f ${WIFI_FILE} ]; then
 		echo "$TAG: mac address file exist"
+		btMac=`cat ${BT_FILE}`
+		setprop ro.bt.bdaddr_path ${BT_FILE}
+		setprop persist.service.bdroid.bdaddr $btMac
+		setprop ro.boot.btmacaddr $btMac
 		chown bluetooth:bluetooth ${BT_FILE}
 		chmod 644 ${BT_FILE}
 		chmod 644 ${WIFI_FILE}
